@@ -3,8 +3,18 @@
 }
 
 #navigation-bar {
-  li.nav-item_categories, li.nav-item_styleguide {
-    display: none;
+  li {
+    &.nav-item_categories, &.nav-item_styleguide {
+      display: none;
+    }
+
+    &.active {
+      background-color: red;
+    }
+
+    &:hover {
+      background-color: yellow;
+    }
   }
 }
 
