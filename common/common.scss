@@ -8,12 +8,16 @@
       display: none;
     }
 
-    &.active a {
-      background-color: red;
+    a {
+      padding: 0.5rem 1rem;
+      background-color: #f2f2f2;
+      color: #4f4f4f;
+      border-radius: 0.416875rem;
     }
 
-    & a:hover {
-      background-color: yellow;
+    &.active a {
+      background-color: #fff6e9;
+      color: #ff5805;
     }
   }
 }
