@@ -1,3 +1,7 @@
+.topic-list-item, tr {
+  border: none;
+}
+
 .topic-list, .topic-list-body, .topic-list-item, .main-link {
   display: flex;
   flex-direction: column;
