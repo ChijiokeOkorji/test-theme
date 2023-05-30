@@ -1,14 +1,17 @@
-.topic-list, .topic-list-body, .topic-list-item {
+.topic-list, .topic-list-body, .topic-list-item, .main-link {
   display: flex;
   flex-direction: column;
 }
 
 .topic-list-item {
-  margin: 0.75rem 1.5rem;
-  padding: 1rem 1.5rem;
-  background-color: #ffffff;
-  border-radius: 0.3125rem;
-  border: 0.0625rem solid #f2f2f2;
+  .main-link {
+    margin: 0.75rem 1.5rem;
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    background-color: #ffffff;
+    border-radius: 0.3125rem;
+    border: 0.0625rem solid #f2f2f2;
+  }
 
   .author-line {
     display: flex;
