@@ -295,3 +295,13 @@
 //     }
 //   }
 // }
+
+.category-breadcrumb {
+  display: none;
+}
+
+#navigation-bar {
+  .categories, .styleguide {
+    display: none
+  }
+}
