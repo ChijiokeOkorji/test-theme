@@ -9,7 +9,7 @@ export default {
       // Change avatar size on desktop
       if (!site.mobileView) {
         // api.changeWidgetSetting("post-avatar", "size", 60);
-        api.changeWidgetSetting("post-avatar", "size", 360);
+        api.changeWidgetSetting("post-avatar", "size", 720);
       }
     });
   },
