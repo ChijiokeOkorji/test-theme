@@ -1,0 +1,81 @@
+right_sidebar_blocks_enabled:
+  type: bool
+  default: false
+  description: "Enabling this will add Right Sidebar Blocks theme component support and replace the original fkb panel with it."
+custom_sidebar_enabled:
+  type: bool
+  default: false
+  description: "Custom sidebar content for visitor."
+custom_sidebar_image:
+  type: upload
+  default: ""
+  description: "Upload an image to display on the sidebar for visitor."
+custom_sidebar_description:
+  type: string
+  textarea: true
+  default: |
+            <strong>Lorem ipsum</strong> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: "Custom sidebar description for visitors. (HTML allowed)"
+fkb_panel_show_solutions:
+  type: bool
+  default: false
+  description: "Enable if you use Discourse Solved plugin."  
+fkb_panel_show_badges:
+  type: bool
+  default: true
+border_radius_avatar: 
+  type: enum
+  default: 50%
+  choices: 
+    - 0%
+    - 10%
+    - 20%
+    - 30%
+    - 40%
+    - 50%
+  description: "Avatar shape."
+border_radius_em: 
+  default: "1em"
+  description: "Highly rounded corners. We use it on topic list items, posts and modals."
+border_radius_button: 
+  default: "2em"
+  description: "Rounded corners. We use it on buttons. inputs etc..."
+border_radius_input: 
+  default: "2em"
+  description: "Rounded corners. We use it on inputs etc..." 
+border_radius_select_body: 
+  default: "0.75em"
+  description: "Rounded corners. We use it on select-kit body etc..."
+light_bg:
+  default: "#f0f2f5"
+  description: "Light background color"
+dark_bg:
+  default: "#18191a"
+  description: "Dark background color"
+light_header_btn:
+  default: "#e1e5eb"
+  description: "Light header buttons color"
+dark_header_btn:
+  default: "#3a3b3e"
+  description: "Dark header buttons color"
+light_header_btn_hover:
+  default: "#d2d8e1"
+  description: "Light header buttons hover color"
+dark_header_btn_hover:
+  default: "rgba(var(--primary-rgb),.1)"
+  description: "Dark header buttons hover color"
+light_btn:
+  default: "#e1e5eb"
+  description: "Light buttons color"
+dark_btn:
+  default: "#383838"
+  description: "Dark buttons color"
+light_btn_hover:
+  default: "#d2d8e1"
+  description: "Light buttons hover color"
+dark_btn_hover:
+  default: "rgba(var(--primary-rgb),.1)"
+  description: "Dark buttons hover color"
