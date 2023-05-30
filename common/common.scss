@@ -55,6 +55,8 @@
           text-transform: capitalize;
           text-align: center;
 
+          &.simple {}
+
           &:after {
             display: none;
           }
