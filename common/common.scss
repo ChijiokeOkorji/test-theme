@@ -39,12 +39,19 @@
 
     .topic-list-item-tags {
       .discourse-tags {
+        display: flex;
+        gap: 0.5rem;
+        
         .discourse-tag {
           width: 5rem;
           height: 1.5rem;
           border-radius: 0.25rem;
           background-color: #e0e0e0;
           color: #333333;
+
+          &:after {
+            display: none;
+          }
         }
       }
     }
