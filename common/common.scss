@@ -32,4 +32,9 @@
       }
     }
   }
+
+  .topic-list-item-extras {
+    display: flex;
+    justify-content: space-between;
+  }
 }
