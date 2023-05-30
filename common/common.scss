@@ -9,4 +9,19 @@
   background-color: #ffffff;
   border-radius: 0.3125rem;
   border: 0.0625rem solid #f2f2f2;
+
+  .author-line {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      display: flex;
+
+      .name-and-date {
+        display: flex;
+        flex-direction: column;
+        gap: 0.125rem;
+      }
+    }
+  }
 }
