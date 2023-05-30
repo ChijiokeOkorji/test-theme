@@ -60,6 +60,12 @@
     .topic-list-item-info {
       display: flex;
       gap: 1rem;
+
+      a {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+      }
     }
   }
 }
