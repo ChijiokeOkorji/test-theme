@@ -56,11 +56,11 @@
     <a class="num views {{topic.viewsHeat}}" href="{{topic.summaryUrl}}">
       {{d-icon "far-eye"}} {{number topic.views numberKey="views_long"}}
     </a>
-    
+
     {{raw "list/posts-count-column" topic=topic}}
 
     <a class="latest-activity-tlist {{view.likesHeat}}" href="{{topic.lastPostUrl}}">
-      {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}} {{d-icon "history"}}
+      {{d-icon "history"}} {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}}
     </a>
   </div>
 </div>
