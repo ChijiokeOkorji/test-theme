@@ -1,0 +1,13 @@
+.topic-list-header {
+  display: none;
+}
+
+.topic-list, .topic-list-body, .topic-list-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.topic-list-body {
+  padding: 1rem 1.5rem
+}
