@@ -296,12 +296,16 @@
 //   }
 // }
 
-.category-breadcrumb {
-  display: none;
-}
-
-#navigation-bar {
-  .categories, .styleguide {
-    display: none
+.navigation-container {
+  justify-content: space-between;
+  
+  .category-breadcrumb {
+    display: none;
+  }
+  
+  #navigation-bar {
+    .categories, .styleguide {
+      display: none
+    }
   }
 }
