@@ -12,18 +12,16 @@
 
 <div class="main-link clearfix">
   <div class="author-line">
-    <div class="author">
-      {{~raw-plugin-outlet name="topic-list-before-status"}}
-      <a href="{{topic.posters.[0].user.userPath}}" data-user-card="{{topic.posters.[0].user.username}}">
-        <div class="topic-list-avatar">
-          {{avatar topic.posters.[0].user imageSize="large"}}
-        </div>
-        <div class="name-and-date">
-          <span class="full-name-tlist">{{topic.posters.[0].user.name}}</span>
-          <span class="list-date">{{format-date topic.createdAt format="tiny"}}</span>
-        </div>
-      </a>
-    </div>
+    {{~raw-plugin-outlet name="topic-list-before-status"}}
+    <a href="{{topic.posters.[0].user.userPath}}" data-user-card="{{topic.posters.[0].user.username}}">
+      <div class="topic-list-avatar">
+        {{avatar topic.posters.[0].user imageSize="large"}}
+      </div>
+      <div class="name-and-date">
+        <span class="full-name-tlist">{{topic.posters.[0].user.name}}</span>
+        <span class="list-date">{{format-date topic.createdAt format="tiny"}}</span>
+      </div>
+    </a>
   </div>
 
   <div class="content-line" id="{{#if topic.hasExcerpt}}link-middle-line-excerpt{{/if}}">
