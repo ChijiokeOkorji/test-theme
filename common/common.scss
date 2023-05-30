@@ -1,3 +1,7 @@
+html {
+  box-sizing: border-box;
+}
+
 .topic-list-item, tbody, tr {
   border: none;
 }
@@ -41,7 +45,7 @@
       .discourse-tags {
         display: flex;
         gap: 0.5rem;
-        
+
         .discourse-tag {
           width: 5rem;
           height: 1.5rem;
