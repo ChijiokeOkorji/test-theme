@@ -9,11 +9,11 @@
     }
 
     &.active {
-      background-color: red;
+      background-color: red!important;
     }
 
     &:hover {
-      background-color: yellow;
+      background-color: yellow!important;
     }
   }
 }
