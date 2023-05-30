@@ -47,6 +47,7 @@ html {
         gap: 0.5rem;
 
         .discourse-tag {
+          box-sizing: border-box!important;
           width: 5rem;
           height: 1.5rem;
           border-radius: 0.25rem;
