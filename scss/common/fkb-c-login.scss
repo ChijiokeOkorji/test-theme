@@ -2,55 +2,19 @@
 
 // Modal Login
 
-.login-modal:not(.hidden),
-.create-account,
-.invites-show {
-  #login-form,
-  .login-form,
-  .invite-form {
-    .input-group input {
-      border-radius: var(--d-input-border-radius);
-    }
-  }
-}
-
 .login-modal:not(.hidden) #login-form {
   .input-group {
     width: 100%;
   }
-  #second-factor input {
-    border-radius: var(--d-input-border-radius);
-  }
-}
-
-.login-modal,
-.d-modal.create-account .modal-body {
-  border-radius: var(--d-default-border-radius);
 }
 
 .d-modal {
   &.create-account,
   &.login-modal {
     .alert {
-      border-radius: var(--d-default-border-radius) var(--d-default-border-radius) 0 0;
       margin: 0;
-      + div {
-        > .modal-body {
-          border-radius: 0 0 var(--d-default-border-radius) var(--d-default-border-radius);
-          .login-left-side {
-            border-radius: 0 var(--d-default-border-radius) var(--d-default-border-radius) var(--d-default-border-radius);
-          }
-        }
-      } 
-    }
-    .modal-body {
-      border-radius: var(--d-default-border-radius);
     }
   }
-}
-
-.login-modal:not(.hidden) .login-left-side {
-  border-radius: var(--d-default-border-radius);
 }
 
 // Invite
@@ -61,7 +25,6 @@
 
 .invites-show .login-welcome-header {
   padding: 1em;
-  border-radius: var(--d-default-border-radius);
 }
 
 // Activate account page
@@ -74,7 +37,6 @@
   // Account page
   .account-created {
     .ac-page {
-      background-color: var(--secondary);
       .col-form {
         .mobile-view & {
           padding: 0.5em;
@@ -85,12 +47,6 @@
           gap: 0.5em;
         }
       }
-    }
-  }
-  // Activation page
-  .activate-account {
-    .perform-activation {
-      background-color: var(--secondary);
     }
   }
 }

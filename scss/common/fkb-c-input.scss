@@ -17,15 +17,6 @@ textarea {
   }
 }
 
-textarea,
-.d-editor-textarea-wrapper {
-  border-radius: var(--d-default-border-radius);
-}
-
-.d-editor-textarea-wrapper textarea {
-  border-radius: 0 0 var(--d-default-border-radius) var(--d-default-border-radius);
-}
-
 .d-editor-textarea-wrapper {
   outline: none !important;
   &.in-focus {
@@ -42,15 +33,10 @@ textarea,
   }
 }
 
-.d-date-time-input {
-  border-radius: var(--d-input-border-radius);
-}
-
 // Select Rounded - Focus
 
 .select-kit.single-select {
   .select-kit-filter {
-    border-radius: var(--d-select-body-border-radius) 0 var(--d-select-body-border-radius) 0;
     outline: none !important;
     border: none !important;
     &.is-expanded .select-kit-header:not(.btn),
@@ -74,17 +60,14 @@ textarea,
         .select-kit-collection,
         .select-kit-body {
           overflow: auto;
-          border-radius: var(--d-select-body-border-radius);
         }
       }
     }
   }
   &.multi-select {
     outline: none !important;
-    border-radius: var(--d-input-border-radius);
     .multi-select-header {
       outline: none !important;
-      border-radius: var(--d-input-border-radius);
       &.is-focused,
       &:focus {
         @include fkb-focus;
@@ -93,14 +76,7 @@ textarea,
     &.is-expanded {
       .select-kit-body {
         overflow: auto;
-        border-radius: var(--d-select-body-border-radius);
       }
-      .multi-select-header {
-        border-radius: var(--d-input-border-radius);
-      }
-    }
-    .choices .choice {
-      border-radius: var(--d-select-body-border-radius);
     }
   }
   &.is-expanded {
@@ -115,8 +91,6 @@ textarea,
     }
     .select-kit-body {
       overflow: auto;
-      border-radius: var(--d-select-body-border-radius);
-      border: 1px solid var(--primary-low);
     }
   }
   &.combo-box {
@@ -124,11 +98,6 @@ textarea,
       outline: none !important;
       &.is-focused {
         @include fkb-focus;
-      }
-    }
-    &.topic-footer-mobile-dropdown {
-      .select-kit-collection {
-        border-radius: var(--d-select-body-border-radius);
       }
     }
     &.category-drop,
@@ -146,34 +115,7 @@ textarea,
       .select-kit-collection,
       .select-kit-body {
         overflow: auto;
-        border-radius: var(--d-select-body-border-radius);
       }
-    }
-    &.period-chooser {
-      .period-chooser-header {
-        border-radius: var(--d-select-body-border-radius);
-      }
-      .period-chooser-row.is-selected:not(.is-highlighted) {
-        color: var(--secondary);
-        .top-date-string {
-          color: var(--secondary) !important;
-        }
-      }
-    }
-  }
-  .select-kit-row {
-    &.is-highlighted {
-      background: var(--tertiary-low);
-    }
-    &.is-selected {
-      &.is-highlighted {
-        background: var(--tertiary-low);
-      }
-    }
-  }
-  .select-kit-collection {
-    &:hover .select-kit-row.is-highlighted:hover {
-      background: var(--tertiary-low);
     }
   }
 }

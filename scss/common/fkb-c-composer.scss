@@ -4,24 +4,8 @@
 
 #reply-control {
   #reply-title {
-    div.ac-wrap {
-      border-radius: var(--d-default-border-radius);
-    }
     &:focus {
       @include fkb-focus;
-    }
-  }
-}
-
-.grippie {
-  border-radius: var(--d-default-border-radius) var(--d-default-border-radius) 0 0;
-}
-
-#reply-control {
-  border-radius: var(--d-default-border-radius) var(--d-default-border-radius) 0 0;
-  #reply-title {
-    div.ac-wrap {
-      border-radius: var(--d-default-border-radius);
     }
   }
 }

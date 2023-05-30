@@ -1,25 +1,6 @@
-:root {  
-  // Desktop topic variables
-  --avatar-post-width: calc(60px + 1em + var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2));
-  --wo-avatar-width: calc(var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2));
-  --topic-post-full-width: calc(60px + 1em + var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2) + 83px);
-  --posts-filter-width: calc(60px + 1em + var(--topic-body-width) + (var(--topic-body-width-padding) * 2) + (12px * 2) - 2em);
-}
-
 // Desktop Topic Mixins
 
-@mixin topic-elements {
-  max-width: var(--wo-avatar-width);
-  margin-left: auto;
-}
-
 // FKBD - Topic
-
-.container.posts {
-  > .row {
-    max-width: var(--avatar-post-width);
-  }
-}
 
 // For responsive topic-body
 .topic-post {
@@ -95,15 +76,8 @@
 
 .archetype-private_message {
   .topic-body {
-    width: var(--wo-avatar-width);
     margin-left: 0;
     padding: 12px 0 12px 12px;
-  }
-  .small-action.topic-post-visited {
-    max-width: var(--avatar-post-width);
-  }
-  .posts-filtered-notice {
-    max-width: var(--avatar-post-width);
   }
   .gap {
     padding: 8px 0;
@@ -111,7 +85,6 @@
   }
   .small-action-desc.timegap {
     padding: 1em;
-    border-radius: var(--d-button-border-radius);
     margin: 8px 0 8px -8px;
   }
 }
@@ -132,7 +105,6 @@
 
 .small-action {
   border-top: none;
-  max-width: var(--avatar-post-width);
   margin-left: auto;
   .topic-avatar {
     width: 60px;
@@ -140,13 +112,9 @@
   .small-action-desc {
     margin-left: 1em;
   }
-  &.topic-post-visited {
-    @include topic-elements;
-  }
 }
 
 .gap {
-  @include topic-elements;
   padding-left: 9px;
 }
 
@@ -163,25 +131,13 @@
 }
 
 .posts-filtered-notice {
-  @include topic-elements;
   padding: 1em 0;
-  border-radius: var(--d-default-border-radius);
-}
-
-#topic-footer-buttons {
-  max-width: var(--avatar-post-width);
 }
 
 .topic-area > .loading-container {
-  width: var(--topic-post-full-width);
   @media screen and (max-width: 924px) {
     width: 100%;
   } 
-}
-
-.topic-status-info,
-.topic-timer-info {
-  max-width: var(--avatar-post-width);
 }
 
 .create-invite-modal,
@@ -193,10 +149,6 @@
       padding: 1em;
     }
   }
-}
-
-#suggested-topics .topic-list .main-link {
-  max-width: var(--avatar-post-width);
 }
 
 .read-state {
@@ -215,22 +167,9 @@
   }
 }
 
-// Lightbox
-
-.lightbox-wrapper .meta {
-  border-radius: 0 0 var(--d-default-border-radius) var(--d-default-border-radius);
-}
-
 // Signup CTA
 
 .signup-cta {
   margin: 1em 0 !important;
-  max-width: var(--avatar-post-width);
   width: 100%;
-}
-
-// FKBD - Emoji
-
-.emoji-picker {
-  border-radius: var(--d-default-border-radius);
 }

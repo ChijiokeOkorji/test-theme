@@ -4,13 +4,6 @@
 
 .header-dropdown-toggle.open-chat {
   .icon.active {
-    background: var(--tertiary-low);
     border-radius: 50px;
-    .d-icon-comment {
-      color: var(--tertiary);
-    }
-    &:hover {
-      background: var(--tertiary-low);
-    }
   }
 }

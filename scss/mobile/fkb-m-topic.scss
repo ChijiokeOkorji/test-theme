@@ -68,7 +68,6 @@
   max-width: 100%;
   margin: 1.5em 0;
   padding-right: 11em;
-  border-radius: var(--d-default-border-radius);
   .filtered-replies-show-all {
     right: 1em;
   }
@@ -81,7 +80,6 @@
 
 .post-notice {
   max-width: 100%;
-  border-radius: var(--d-default-border-radius);
   padding: 0.8em;
   margin-bottom: 16px;
   &.old {
@@ -98,7 +96,6 @@
 
 .topic-navigation-outlet.no-answer {
   .topic-navigation-popup {
-    background: var(--tertiary-low);
     margin-bottom: 16px;
     .close {
       float: right;
@@ -109,9 +106,7 @@
 // Suggested
 
 .suggested-topics-wrapper {
-  .topic-list-item {
-    border-radius: var(--d-default-border-radius);
-  }
+
   .topic-list-data {
     box-sizing: border-box;
     padding: 1em;
@@ -124,7 +119,6 @@
 // Topic timeline
 
 #topic-progress {
-  border-radius: var(--d-default-border-radius);
   overflow: hidden;
 }
 
@@ -165,12 +159,6 @@
 
 .timeline-container.timeline-fullscreen.show .topic-timeline .timeline-footer-controls {
   display: inline-flex;
-}
-
-// Lightbox
-
-.lightbox-wrapper .meta {
-  border-radius: 0 0 var(--d-default-border-radius) 0;
 }
 
 // Onebox

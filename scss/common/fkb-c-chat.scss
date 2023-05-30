@@ -1,16 +1,7 @@
 // FKBC - Chat
 
-html.has-full-page-chat {
-  #main-outlet {
-    .full-page-chat {
-      background: var(--secondary);
-    }
-  }
-}
-
 .dc-filter-input-container,
 .channel-members-view__search-input-container {
-  border-radius: var(--d-input-border-radius);
   &.is-focused {
     @include fkb-focus;
   }

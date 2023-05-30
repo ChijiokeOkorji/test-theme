@@ -56,7 +56,6 @@ body[class*="category-"] {
         border-left: none;
         h3 {
           padding-left: 0.5em;
-          border-left: 6px solid var(--category-color);
         }
       }
       .topic-list-item,
@@ -87,9 +86,6 @@ body[class*="category-"] {
       width: calc(100vw - 20px);
     }
     margin: 0 0 16px 0;
-    background: var(--secondary);
-    border-radius: var(--d-default-border-radius);
-    border: 2px solid var(--category-color);;
     .category-box-inner {
       border: none;
     }
@@ -101,6 +97,4 @@ body[class*="category-"] {
 .category-read-only-banner {
   min-width: calc(80vw - 16px);
   text-align: center;
-  background: var(--highlight-low);
-  color: var(--primary);
 }

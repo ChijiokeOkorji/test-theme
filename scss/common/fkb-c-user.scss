@@ -12,7 +12,6 @@ h2.username,
 
 .user-main {
   .about {
-    border-radius: var(--d-default-border-radius);
     .details {
       @include bg-br;
       padding: 1em;
@@ -21,13 +20,10 @@ h2.username,
     .secondary {
       padding: 0.5em;
       width: auto;
-      border: 1px solid var(--primary-low);
-      border-radius: var(--d-default-border-radius);
       margin-top: 0.25em;
     }
     &.collapsed-info {
       .details {
-        background: var(--secondary);
         padding: 1em;
         border: none;
       }
@@ -37,15 +33,11 @@ h2.username,
         padding: 15px;
       }
       .user-profile-image {
-        border-radius: var(--d-default-border-radius) var(--d-default-border-radius) 0 0;
         margin-bottom: -15px;
       }
       .staff-counters {
         margin-bottom: 10px;
       }
-    }
-    .staff-counters {
-      border-radius: var(--d-default-border-radius);
     }
   }
 }
@@ -85,7 +77,6 @@ h2.username,
   }
   .topic-list {
     .main-link {
-      border: 1px solid var(--primary-low);
       box-shadow: none;
     }
   }
@@ -98,7 +89,6 @@ h2.username,
   .user-stream-item {
     .excerpt {
       img:not(.thumbnail):not(.site-icon):not(.avatar):not(.emoji):not(.ytp-thumbnail-image) {
-        border-radius: var(--d-default-border-radius);
         max-width: 100%;
         height: auto;
       }
@@ -106,29 +96,11 @@ h2.username,
   }
 }
 
-.uploaded-image-preview {
-  border-radius: var(--d-default-border-radius);
-}
-
 // Warning when mailing list mode on
 
 .user-preferences {
   .warning {
     width: auto;
-    border-radius: var(--d-default-border-radius);
-  }
-}
-
-// User Card
-
-.user-card.show,
-.group-card.show,
-.user-card.no-bg,
-.group-card.no-bg {
-  border-radius: var(--d-default-border-radius);
-  .card-content {
-    border-radius: var(--d-default-border-radius);
-    border: 1px solid var(--primary-low);
   }
 }
 
@@ -144,9 +116,7 @@ h2.username,
     margin-left: -0.25em;
     > * {
       display: inline-flex;
-      border-radius: var(--d-default-border-radius);
       margin: 0.25em;
-      border: 1px solid var(--primary-low-mid);
       &:empty {
         display: none;
       }
@@ -171,17 +141,7 @@ h2.username,
   }
 }
 
-.follow-button-container {
-  button {
-    background: var(--fkb-btn);
-  }
-}
-
 .follow-statistics-user-card h3 {
-  color: var(--primary-high);
-  .value {
-    color: var(--primary);
-  }
   &:nth-child(2) {
     &:before {
       content: "I";
@@ -196,10 +156,8 @@ h2.username,
     align-items: center;
     .d-icon-map-marker-alt {
       margin-top: 0;
-      background: var(--fkb-btn);
       width: 2em;
       height: 2em;
-      border-radius: var(--d-button-border-radius);
       > use {
         transform: scale(0.5);
         transform-origin: center;
@@ -214,10 +172,8 @@ h2.username,
       align-items: center;
       margin: 0.5em 0;
       .d-icon-globe {
-        background: var(--fkb-btn);
         width: 2em;
         height: 2em;
-        border-radius: var(--d-button-border-radius);
         margin-right: 5px;
         > use {
           transform: scale(0.5);
@@ -243,15 +199,6 @@ h2.username,
       @include bg-br;
     }
   }
-  .me {
-    .username a,
-    .name,
-    .title,
-    .number,
-    .time-read {
-      color: var(--tertiary);
-    }
-  }
 }
 
 // Bookmark
@@ -263,8 +210,6 @@ body.user-activity-page .bookmark-list-wrapper {
       display: table-row-group;
       .bookmark-list-item {
         display: table-row;
-        background: var(--secondary);
-        border-bottom: 1px solid var(--primary-low);
         .main-link {
           background: none;
           box-shadow: none;
@@ -282,10 +227,6 @@ body.user-activity-page .bookmark-list-wrapper {
 // User Status
 
 .user-status-picker-wrap .user-status-picker {
-  border-radius: var(--d-input-border-radius);
-  .btn-emoji {
-    border-radius: var(--d-button-border-radius);    
-  }
   .user-status-description {
     box-shadow: none;
   }
