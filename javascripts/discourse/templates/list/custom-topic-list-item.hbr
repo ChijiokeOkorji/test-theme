@@ -13,12 +13,6 @@
 <div class="main-link clearfix">
   <span class="link-top-line">
     <div class="byline">
-      {{#unless hideCategory}}
-        {{#unless topic.isPinnedUncategorized}}
-          {{~raw-plugin-outlet name="topic-list-before-category"}}
-          {{category-link topic.category}}
-        {{/unless}}
-      {{/unless}}
       <div class="author">
         {{~raw-plugin-outlet name="topic-list-before-status"}}
         <a href="{{topic.posters.[0].user.userPath}}" data-user-card="{{topic.posters.[0].user.username}}">
