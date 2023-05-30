@@ -27,7 +27,7 @@
           </div>
           <div class="name-and-date">
             <span class="full-name-tlist">{{topic.posters.[0].user.name}}</span>
-            <span class="list-date">{{format-date topic.createdAt format="tiny"}}</span>
+            <span class="list-date">{{format-date topic.createdAt format="large"}}</span>
           </div>
         </a>
       </div>
