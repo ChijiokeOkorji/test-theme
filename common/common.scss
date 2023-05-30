@@ -2,9 +2,18 @@
   display: none;
 }
 
-#navigation-bar {
+.navigation-container {
+  .btn-default {
+    padding: 0.75rem 1.25rem 0.75rem 1.5rem;
+    border-radius: 0.25rem;
+    background-color: #ff5805;
+    color: #ffffff;
+  }
+}
+
+.nav-pills {
   gap: 0.875rem;
-  
+
   li {
     margin: 0;
 
@@ -24,6 +33,10 @@
       color: #ff5805;
     }
   }
+}
+
+.navigation-controls {
+
 }
 
 
