@@ -1,3 +1,25 @@
+@font-face {
+  font-family: 'Moderat';
+  src: url('../assets//fonts/Moderat-Regular.woff');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Moderat';
+  src: url('../assets//fonts/Moderat-Medium.woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Moderat';
+  src: url('../assets//fonts/Moderat-Bold.woff');
+  font-weight: 700;
+}
+
+* {
+  font-family: 'Moderat';
+}
+
 .category-breadcrumb {
   display: none;
 }
