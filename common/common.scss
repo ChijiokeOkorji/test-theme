@@ -8,12 +8,12 @@
       display: none;
     }
 
-    &.active, &.active a {
-      background-color: red!important;
+    &.active a {
+      background-color: red;
     }
 
-    &:hover, & a:hover {
-      background-color: yellow!important;
+    & a:hover {
+      background-color: yellow;
     }
   }
 }
