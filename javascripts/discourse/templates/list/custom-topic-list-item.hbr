@@ -52,10 +52,10 @@
     </div>
   </span>
   <div class="link-bottom-line">
-    {{raw "list/action-list" icon="star" topic=topic postNumbers=topic.liked_post_numbers className="likes"}}
+    {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
     {{#if hasLikes}}
       <a class="likes likes-tlist" href="{{topic.summaryUrl}}">
-        {{number topic.like_count}} {{d-icon "heart"}}
+        {{number topic.like_count}} {{d-icon "star"}}
       </a>
     {{/if}}
     <a class="num views {{topic.viewsHeat}}" href="{{topic.summaryUrl}}">
