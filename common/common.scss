@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box!important;
-}
-
 .topic-list-item, tbody, tr {
   border: none;
 }
@@ -47,15 +43,12 @@
         gap: 0.5rem;
 
         .discourse-tag {
-          width: 5rem;
-          height: 1.5rem;
+          padding: 0.25rem 1.25rem;
           border-radius: 0.25rem;
           background-color: #e0e0e0;
           color: #333333;
           text-transform: capitalize;
           text-align: center;
-
-          &.simple {}
 
           &:after {
             display: none;
