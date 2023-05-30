@@ -50,9 +50,7 @@
   </div>
 
   <div class="topic-list-item-extras">
-    <div class="topic-list-item-tags">
-      {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
-    </div>
+    {{discourse-tags topic mode="list" tagsForUser=tagsForUser}}
 
     <div class="topic-list-item-info">
       {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
