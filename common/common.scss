@@ -8,11 +8,11 @@
       display: none;
     }
 
-    &.active {
+    &.active, &.active a {
       background-color: red!important;
     }
 
-    &:hover {
+    &:hover, & a:hover {
       background-color: yellow!important;
     }
   }
