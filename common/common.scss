@@ -3,7 +3,11 @@
 }
 
 #navigation-bar {
+  gap: 0.875rem;
+  
   li {
+    margin: 0;
+
     &.nav-item_categories, &.nav-item_styleguide {
       display: none;
     }
