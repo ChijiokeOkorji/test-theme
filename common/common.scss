@@ -207,11 +207,11 @@ $tertiary: #ffffff;
   .topic-list-item-extras {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .topic-list-item-tags {
       .discourse-tags {
         display: flex;
-        align-items: center;
         gap: 0.5rem;
 
         .discourse-tag {
