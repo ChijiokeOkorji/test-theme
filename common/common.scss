@@ -19,6 +19,13 @@
   font-weight: 700;
 }
 
+img.list-item-icon {
+  background-image: url($time-icon);
+  width: 20rem;
+  height: 10rem;
+  padding: 10rem 0 0 0;
+}
+
 #main-outlet-wrapper.wrap {
   max-width: 100%;
   margin: 0;
