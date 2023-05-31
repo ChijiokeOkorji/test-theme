@@ -5,25 +5,22 @@
   font-weight: 400;
 }
 
-// @font-face {
-//   font-family: 'Moderat';
-//   src: url(Moderat-Medium)
-//   format("woff");
-//   font-weight: 500;
-// }
+@font-face {
+  font-family: 'Moderat';
+  src: url(/assets/Moderat-Medium.woff)
+  format("woff");
+  font-weight: 500;
+}
 
-// @font-face {
-//   font-family: 'Moderat';
-//   src: url(Moderat-Bold)
-//   format("woff");
-//   font-weight: 700;
-// }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@font-face {
+  font-family: 'Moderat';
+  src: url(/assets//Moderat-Bold.woff)
+  format("woff");
+  font-weight: 700;
+}
 
 .full-name-tlist {
   font-family: 'Moderat';
-  font-family: 'Roboto Mono';
   font-weight: 400;
 }
 
