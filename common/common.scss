@@ -32,11 +32,6 @@ $secondary: #2a3362;
   line-height: 1.2rem;// 19.2px
   font-weight: 500;
 }
-@mixin font2 {
-  font-size: 1rem;// 16px
-  line-height: 1.2rem;// 19.2px
-  font-weight: 700;
-}
 @mixin font3 {
   font-size: 0.875rem;// 14px
   line-height: 1.05rem;// 16.8px
@@ -102,7 +97,7 @@ $secondary: #2a3362;
       }
 
       &.active a {
-        @include font2;
+        font-weight: 700;
         background-color: $primary-light;
         color: $primary;
       }
