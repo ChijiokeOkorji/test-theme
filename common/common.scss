@@ -44,7 +44,7 @@ $tertiary: #ffffff;
   font-weight: 400;
 }
 @mixin font4 {
-  font-size: 1.125rem;// 18px
+  font-size: 1.175rem;// 18px
   line-height: 1.35rem;// 21.6px
   font-weight: 700;
 }
@@ -176,7 +176,7 @@ $tertiary: #ffffff;
   }
 
   .topic-title-line {
-    .title {
+    a.title {
       @include font4;
       color: $secondary;
     }
