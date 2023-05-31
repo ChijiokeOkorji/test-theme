@@ -146,6 +146,11 @@ $secondary: #2a3362;
     display: flex;
     justify-content: space-between;
 
+    .avatar {
+      width: 2rem;
+      height: 2rem;
+    }
+
     a {
       display: flex;
       gap: 0.5rem;
