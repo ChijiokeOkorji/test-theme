@@ -160,6 +160,11 @@ $secondary: #2a3362;
         display: flex;
         flex-direction: column;
         gap: 0.125rem;
+
+        .full-name-tlist {
+          @include font2;
+          color: $secondary;
+        }
       }
     }
   }
