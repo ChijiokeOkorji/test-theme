@@ -64,7 +64,7 @@ $secondary: #2a3362;
 }
 
 * {
-  font-family: 'Moderat';
+  font-family: 'Moderat', sans-serif;
 }
 
 #main-outlet-wrapper.wrap {
@@ -105,6 +105,7 @@ $secondary: #2a3362;
 }
 
   .btn-default {
+    @include font3;
     padding: 0.75rem 1.25rem 0.75rem 1.5rem;
     border-radius: 0.25rem;
     background-color: #ff5805;
