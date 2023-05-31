@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Moderat';
-  src: url('/fonts/Moderat-Regular.woff')
+  src: url('../assets/fonts/Moderat-Regular.woff')
   format("woff");
   font-weight: 400;
 }
@@ -21,6 +21,7 @@
 
 .full-name-tlist {
   font-family: 'Moderat';
+  font-weight: 400;
 }
 
 .category-breadcrumb {
