@@ -176,8 +176,10 @@ $tertiary: #ffffff;
   }
 
   .topic-title-line {
-    @include font4;
-    color: $secondary;
+    .title {
+      @include font4;
+      color: $secondary;
+    }
   }
 
   .topic-excerpt-line {
