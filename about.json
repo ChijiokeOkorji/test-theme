@@ -3,6 +3,9 @@
   "license_url": null,
   "about_url": null,
   "authors": null,
+  "assets": {
+    "time-icon": "assets/my-asset.jpg"
+  },
   "modifiers": {
     "serialize_topic_excerpts": true
   }

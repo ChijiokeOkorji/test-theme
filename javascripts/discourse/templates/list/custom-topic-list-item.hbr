@@ -63,7 +63,7 @@
       {{raw "list/posts-count-column" topic=topic}}
 
       <a class="latest-activity-tlist {{view.likesHeat}}" href="{{topic.lastPostUrl}}">
-        <img class="list-item-icon" src="@asset('icons/schedule_FILL0_wght400_GRAD0_opsz48 1.svgline-separator.png')">
+        <img class="list-item-icon" src="@asset($time-icon)">
         {{d-icon "history"}} {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}}
       </a>
     </div>
