@@ -1,9 +1,9 @@
-// @font-face {
-//   font-family: 'Moderat';
-//   src: url($Moderat-Regular)
-//   format("woff");
-//   font-weight: 400;
-// }
+@font-face {
+  font-family: 'Moderat';
+  src: url(/assets//Moderat-Regular.woff)
+  format("woff");
+  font-weight: 400;
+}
 
 // @font-face {
 //   font-family: 'Moderat';
@@ -19,10 +19,11 @@
 //   font-weight: 700;
 // }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 .full-name-tlist {
   font-family: 'Roboto Mono';
+  font-family: 'Moderat';
   font-weight: 400;
 }
 
