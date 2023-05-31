@@ -20,6 +20,7 @@
 }
 
 $black10: #f2f2f2;
+$black20: #e0e0e0;
 $black40: #828282;
 $black60: #4f4f4f;
 $black80: #333333;
@@ -54,7 +55,7 @@ $tertiary: #ffffff;
   font-weight: 400;
 }
 @mixin font6 {
-  font-size: 0.75rem;// 12px
+  font-size: 0.8rem;// 12px
   line-height: 0.9rem;// 14.4px
   font-weight: 500;
 }
@@ -213,12 +214,13 @@ $tertiary: #ffffff;
         gap: 0.5rem;
 
         .discourse-tag {
+          @include font6;
           padding: 0.25rem 1rem;
           border-radius: 0.25rem;
-          background-color: #e0e0e0;
-          color: #333333;
+          background-color: $black20;
+          color: $black80;
           text-transform: capitalize;
-          text-align: center;
+          // text-align: center;
 
           &:after {
             display: none;
