@@ -4,6 +4,7 @@
   "about_url": null,
   "authors": null,
   "assets": {
+    "Moderat-Regular": "assets/Moderat-Regular.woff",
     "time-icon": "assets/my-asset.jpg"
   },
   "modifiers": {
