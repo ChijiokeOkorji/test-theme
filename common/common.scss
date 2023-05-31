@@ -21,9 +21,9 @@
 
 img.list-item-icon {
   background-image: url($time-icon);
-  width: 20rem;
-  height: 10rem;
-  padding: 10rem 0 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #main-outlet-wrapper.wrap {
