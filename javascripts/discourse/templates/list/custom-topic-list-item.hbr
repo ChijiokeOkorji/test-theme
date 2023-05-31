@@ -57,14 +57,18 @@
     <div class="topic-list-item-info">
       {{raw "list/action-list" topic=topic postNumbers=topic.liked_post_numbers className="likes" icon="heart"}}
       <a class="num views {{topic.viewsHeat}}" href="{{topic.summaryUrl}}">
-        {{d-icon "far-eye"}} {{number topic.views numberKey="views_long"}}
+        <img src="{{theme-setting "theme_uploads.eye-icon"}}">
+        {{number topic.views numberKey="views_long"}}
       </a>
 
-      {{raw "list/posts-count-column" topic=topic}}
+      <a href class="posts-map badge-posts {{view.likesHeat}}" aria-label="{{view.title}}">
+        <img src="{{theme-setting "theme_uploads.message-icon"}}">
+        {{number topic.replyCount noTitle="true"}}
+      </a>
 
       <a class="latest-activity-tlist {{view.likesHeat}}" href="{{topic.lastPostUrl}}">
         <img src="{{theme-setting "theme_uploads.time-icon"}}">
-        {{d-icon "history"}} {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}}
+        {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}}
       </a>
     </div>
   </div>
