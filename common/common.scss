@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Moderat';
-  src: url(../assets//fonts/Moderat-Regular.woff)
+  src: url(fonts/$Moderat-Regular)
   format("woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Moderat';
-  src: url(../assets/fonts/Moderat-Medium.woff)
+  src: url(fonts/$Moderat-Medium)
   format("woff");
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Moderat';
-  src: url(../assets//fonts/Moderat-Bold.woff)
+  src: url(fonts/Moderat-Bold)
   format("woff");
   font-weight: 700;
 }
