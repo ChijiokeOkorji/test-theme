@@ -22,6 +22,8 @@
         <span class="list-date">{{format-date topic.createdAt format="tiny"}}</span>
       </div>
     </a>
+
+    <img src="{{theme-setting "theme_uploads.more-options-icon"}}">
   </div>
 
   <div class="topic-title-line">

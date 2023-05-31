@@ -9,6 +9,7 @@
     "Moderat-Bold": "assets/fonts/Moderat-Bold.woff",
     "eye-icon": "assets/icons/eye-icon.svg",
     "message-icon": "assets/icons/message-icon.svg",
+    "more-options-icon": "assets/icons/more-options-icon.svg",
     "time-icon": "assets/icons/time-icon.svg"
   },
   "modifiers": {
