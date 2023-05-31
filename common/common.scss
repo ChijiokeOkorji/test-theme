@@ -19,24 +19,14 @@
   font-weight: 700;
 }
 
-div.list-item-icon {
-  width: 1rem;
-  height: 1rem;
-  background-image: url($time-icon);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+* {
+  font-family: 'Moderat';
 }
 
 #main-outlet-wrapper.wrap {
   max-width: 100%;
   margin: 0;
   padding: 0 30vmin;
-}
-
-.full-name-tlist {
-  font-family: 'Moderat';
-  font-weight: 400;
 }
 
 .category-breadcrumb {
