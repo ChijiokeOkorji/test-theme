@@ -3,6 +3,7 @@
   "license_url": null,
   "about_url": null,
   "authors": null,
+  "assets": ["./icons"],
   "modifiers": {
     "serialize_topic_excerpts": true
   }
