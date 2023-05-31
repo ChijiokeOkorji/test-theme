@@ -239,7 +239,10 @@ $tertiary: #ffffff;
         display: flex;
         gap: 0.25rem;
         align-items: center;
-        color: $black40;
+
+        span {
+          color: $black40;
+        }
       }
     }
   }
