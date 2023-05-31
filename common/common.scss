@@ -112,6 +112,14 @@
   }
 
   .topic-excerpt-line {
+    display: flex;
+    flex-direction: column;
+
+    & * {
+      margin: 0;
+      padding: 0;
+    }
+    
     .topic-image {
       margin: 0 0%;
       padding: 19.098301% 0;
