@@ -7,14 +7,14 @@
 
 @font-face {
   font-family: 'Moderat';
-  src: url(/assets/Moderat-Medium.woff)
+  src: url($Moderat-Medium)
   format("woff");
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Moderat';
-  src: url(/assets//Moderat-Bold.woff)
+  src: url($Moderat-Bold)
   format("woff");
   font-weight: 700;
 }
