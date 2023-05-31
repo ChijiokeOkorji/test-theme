@@ -211,6 +211,7 @@ $tertiary: #ffffff;
     .topic-list-item-tags {
       .discourse-tags {
         display: flex;
+        align-items: center;
         gap: 0.5rem;
 
         .discourse-tag {
@@ -220,7 +221,6 @@ $tertiary: #ffffff;
           background-color: $black20;
           color: $black80;
           text-transform: capitalize;
-          // text-align: center;
 
           &:after {
             display: none;
