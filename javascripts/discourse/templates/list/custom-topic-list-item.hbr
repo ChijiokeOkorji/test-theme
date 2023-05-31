@@ -63,9 +63,6 @@
       {{raw "list/posts-count-column" topic=topic}}
 
       <a class="latest-activity-tlist {{view.likesHeat}}" href="{{topic.lastPostUrl}}">
-        <div class="list-item-icon time-icon"></div>
-        <img class="list-item-icon" src="@asset('images/time-icon.svg')">
-        <img class="list-item-icon" src="{{time-icon}}">
         <img src="{{theme-setting "theme_uploads.time-icon"}}">
         {{d-icon "history"}} {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}}
       </a>
