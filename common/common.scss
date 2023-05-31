@@ -20,8 +20,8 @@
 }
 
 $black10: #f2f2f2;
-$black40: #999999;
-$black60: #666666;
+$black40: #828282;
+$black60: #4f4f4f;
 $black80: #333333;
 $primary: #ff5805;
 $primary-light: #fff6e9;
@@ -97,8 +97,8 @@ $secondary: #2a3362;
       }
 
       &.active a {
-        background-color: #fff6e9;
-        color: #ff5805;
+        background-color: $primary-light;
+        color: $primary;
       }
     }
 }
