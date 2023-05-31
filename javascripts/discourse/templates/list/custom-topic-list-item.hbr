@@ -64,7 +64,7 @@
 
       <a class="latest-activity-tlist {{view.likesHeat}}" href="{{topic.lastPostUrl}}">
         <img class="list-item-icon" src="{{"time-icon"}}">
-        <img class="list-item-icon" src="schedule_FILL0_wght400_GRAD0_opsz48 1.svg">
+        <img class="list-item-icon" src="time-icon.svg">
         {{d-icon "history"}} {{~format-date topic.bumpedAt format="tiny" noTitle="true"~}}
       </a>
     </div>
